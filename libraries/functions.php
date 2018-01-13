@@ -12,10 +12,10 @@
 	function getDataTweets($username){
 
 		$auth = new SingleUserAuth(array(
-			'consumer_key' 			=> '7uCb77YkHIetjXbPLP2mYxz8G',
-			'consumer_secret' 		=> 'm4TO3oTazPUsGCLeftvgqZOXJpyLND5cseOz3rdFFWvEL7fuvm',
-			'oauth_token' 			=> '212463543-7EKOR2THXimjEeYJR54UYRt8tp3CPVcuAa4BwGK9',
-			'oauth_token_secret' 	=> 'QDqF1BjZPZpFvUcxXHjX0UoWiyfsW59XFtMgQlQXgmFFS'
+			'consumer_key' 			=> '',
+			'consumer_secret' 		=> '',
+			'oauth_token' 			=> '',
+			'oauth_token_secret' 	=> ''
 		), new ArraySerializer());
 
 		$params = array(
